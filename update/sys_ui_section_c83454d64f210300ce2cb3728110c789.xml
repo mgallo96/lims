@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Table" section_id="c83454d64f210300ce2cb3728110c789" sys_domain="global" table="sys_db_object" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-03 17:04:07</sys_created_on>
+            <sys_id>7e8458d64f210300ce2cb3728110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Table" display_value="Table" name="sys_db_object" sys_domain="global" view="Default view">c83454d64f210300ce2cb3728110c789</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-03 17:04:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Table</caption>
+            <header>false</header>
+            <name>sys_db_object</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-03 17:02:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c83454d64f210300ce2cb3728110c789</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+            <sys_update_name>sys_ui_section_c83454d64f210300ce2cb3728110c789</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-03 17:02:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
