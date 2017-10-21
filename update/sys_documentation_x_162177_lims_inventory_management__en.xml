@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Inventory" language="en" table="x_162177_lims_inventory_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Inventory</label>
+            <language>en</language>
+            <name>x_162177_lims_inventory_management</name>
+            <plural>Inventories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>davis.pham</sys_created_by>
+            <sys_created_on>2017-10-04 22:19:01</sys_created_on>
+            <sys_id>a536ea6a4f210300ce2cb3728110c719</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Inventory</sys_name>
+            <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+            <sys_update_name>sys_documentation_x_162177_lims_inventory_management__en</sys_update_name>
+            <sys_updated_by>davis.pham</sys_updated_by>
+            <sys_updated_on>2017-10-09 22:13:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

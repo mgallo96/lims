@@ -4,28 +4,42 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_reference_4</element>
             <position>0</position>
-            <sys_created_by>davis.pham</sys_created_by>
-            <sys_created_on>2017-10-02 22:28:56</sys_created_on>
-            <sys_id>d74598864fa10300ce2cb3728110c71c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 16:59:38</sys_created_on>
+            <sys_id>6da654284f310300ce2cb3728110c7fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">db4598864fa10300ce2cb3728110c71a</sys_ui_section>
-            <sys_updated_by>davis.pham</sys_updated_by>
-            <sys_updated_on>2017-10-02 22:28:56</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:59:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_description</element>
             <position>1</position>
-            <sys_created_by>davis.pham</sys_created_by>
-            <sys_created_on>2017-10-02 22:28:56</sys_created_on>
-            <sys_id>5b4598864fa10300ce2cb3728110c71c</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 16:59:38</sys_created_on>
+            <sys_id>eda654284f310300ce2cb3728110c7fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">db4598864fa10300ce2cb3728110c71a</sys_ui_section>
-            <sys_updated_by>davis.pham</sys_updated_by>
-            <sys_updated_on>2017-10-02 22:28:56</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:59:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_data_structure_samples</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 16:59:38</sys_created_on>
+            <sys_id>61a654284f310300ce2cb3728110c7fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">db4598864fa10300ce2cb3728110c71a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:59:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

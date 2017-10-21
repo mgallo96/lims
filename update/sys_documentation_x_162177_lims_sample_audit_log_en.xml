@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="audit_log" label="Audit Log" language="en" table="x_162177_lims_sample">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>audit_log</element>
+            <help/>
+            <hint/>
+            <label>Audit Log</label>
+            <language>en</language>
+            <name>x_162177_lims_sample</name>
+            <plural>Audit Logs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ryan.gray</sys_created_by>
+            <sys_created_on>2017-10-10 16:48:39</sys_created_on>
+            <sys_id>2c24d8a44f310300ce2cb3728110c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Audit Log</sys_name>
+            <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+            <sys_update_name>sys_documentation_x_162177_lims_sample_audit_log_en</sys_update_name>
+            <sys_updated_by>ryan.gray</sys_updated_by>
+            <sys_updated_on>2017-10-10 16:48:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

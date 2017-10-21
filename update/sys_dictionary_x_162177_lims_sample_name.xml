@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_description" table="x_162177_lims_lab_notebook">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_162177_lims_sample">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Description</column_label>
+        <column_label>Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,13 +28,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_description</element>
+        <element>name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
-        <max_length>4000</max_length>
-        <name>x_162177_lims_lab_notebook</name>
+        <max_length>60</max_length>
+        <name>x_162177_lims_sample</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -45,17 +50,17 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>davis.pham</sys_created_by>
-        <sys_created_on>2017-10-02 22:24:21</sys_created_on>
-        <sys_id>084490464fa10300ce2cb3728110c7b7</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Description</sys_name>
+        <sys_created_by>ryan.gray</sys_created_by>
+        <sys_created_on>2017-10-10 16:40:53</sys_created_on>
+        <sys_id>4e22dc244f310300ce2cb3728110c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Name</sys_name>
         <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
-        <sys_update_name>sys_dictionary_x_162177_lims_lab_notebook_u_description</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-10 17:01:45</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_162177_lims_sample_name</sys_update_name>
+        <sys_updated_by>ryan.gray</sys_updated_by>
+        <sys_updated_on>2017-10-10 16:40:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

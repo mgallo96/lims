@@ -1,33 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_section caption="" section_id="5730948e4f610300ce2cb3728110c7cd" sys_domain="global" table="x_162177_lims_lab_notebook" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-15 19:03:42</sys_created_on>
+            <sys_id>6bf2ea0e4fb10300ce2cb3728110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-15 19:03:42</sys_updated_on>
+            <text>Attach files by dragging and dropping them into the form, or by clicking the paper clip in the top of the form.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_reference_4</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-10-03 17:36:09</sys_created_on>
-            <sys_id>08eb5c1e4f210300ce2cb3728110c7ad</sys_id>
+            <sys_created_on>2017-10-15 19:03:42</sys_created_on>
+            <sys_id>2ff2ea0e4fb10300ce2cb3728110c787</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="Default view">5730948e4f610300ce2cb3728110c7cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-10-03 17:36:09</sys_updated_on>
+            <sys_updated_on>2017-10-15 19:03:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_short_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-15 19:03:42</sys_created_on>
+            <sys_id>aff2ea0e4fb10300ce2cb3728110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="Default view">5730948e4f610300ce2cb3728110c7cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-15 19:03:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_description</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-10-03 17:36:09</sys_created_on>
-            <sys_id>cceb5c1e4f210300ce2cb3728110c7ad</sys_id>
+            <sys_created_on>2017-10-15 19:03:42</sys_created_on>
+            <sys_id>23f2ea0e4fb10300ce2cb3728110c788</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="Default view">5730948e4f610300ce2cb3728110c7cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-10-03 17:36:09</sys_updated_on>
+            <sys_updated_on>2017-10-15 19:03:42</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_samples_list</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-15 19:03:42</sys_created_on>
+            <sys_id>a3f2ea0e4fb10300ce2cb3728110c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="Default view">5730948e4f610300ce2cb3728110c7cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-15 19:03:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>6bf2ea0e4fb10300ce2cb3728110c787</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-15 19:03:42</sys_created_on>
+            <sys_id>27f2ea0e4fb10300ce2cb3728110c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_lab_notebook" sys_domain="global" view="Default view">5730948e4f610300ce2cb3728110c7cd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-15 19:03:42</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

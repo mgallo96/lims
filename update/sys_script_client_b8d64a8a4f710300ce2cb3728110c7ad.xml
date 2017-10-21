@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>name</field>
+        <global>true</global>
+        <messages/>
+        <name>sampleLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var nameLabel = g_form.getLabel('name');
+   var quantityLabel = g_form.getLabel('quantity');
+	
+	nameLabel.style.color = '#222775';
+quantityLabel.style.color = '#222775';
+nameLabel.style.fontFamily = 'Futura';
+quantityLabel.style.fontFamily = 'Futura';
+
+  var descLabel = g_form.getLabel('description');
+   var stageLabel = g_form.getLabel('stage');
+	
+	descLabel.style.color = '#222775';
+stageLabel.style.color = '#222775';
+descLabel.style.fontFamily = 'Futura';
+stageLabel.style.fontFamily = 'Futura';
+
+  var auditLabel = g_form.getLabel('audit_log');
+   var testLabel = g_form.getLabel('tests_results');
+	
+	auditLabel.style.color = '#222775';
+testLabel.style.color = '#222775';
+auditLabel.style.fontFamily = 'Futura';
+testLabel.style.fontFamily = 'Futura';
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ryan.gray</sys_created_by>
+        <sys_created_on>2017-10-15 17:04:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8d64a8a4f710300ce2cb3728110c7ad</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>sampleLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_script_client_b8d64a8a4f710300ce2cb3728110c7ad</sys_update_name>
+        <sys_updated_by>ryan.gray</sys_updated_by>
+        <sys_updated_on>2017-10-15 17:19:16</sys_updated_on>
+        <table>x_162177_lims_sample</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
