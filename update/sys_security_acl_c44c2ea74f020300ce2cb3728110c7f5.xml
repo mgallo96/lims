@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_162177_lims_quejas</description>
+        <name>x_162177_lims_quejas</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>davis.pham</sys_created_by>
+        <sys_created_on>2017-11-01 21:50:44</sys_created_on>
+        <sys_id>c44c2ea74f020300ce2cb3728110c7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_162177_lims_quejas</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_security_acl_c44c2ea74f020300ce2cb3728110c7f5</sys_update_name>
+        <sys_updated_by>davis.pham</sys_updated_by>
+        <sys_updated_on>2017-11-01 21:50:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

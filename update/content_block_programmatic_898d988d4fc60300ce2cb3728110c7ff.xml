@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Lab Info Management - Catalog Items ListGrid</name>
+        <programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div class="cms_list_with_grid_preference content_list_container">
+   <g:evaluate var="jvar_category">
+      var documentKey = RP.getParameterValue('sysparm_document_key') + '';
+      
+      if (documentKey) {
+         documentKey = documentKey.split(',');
+         var tableName = documentKey[0];
+         var documentID = documentKey[1];
+         
+         if (documentID)
+            var category = GlideappCategory.get(documentID);
+      }
+      category;
+	</g:evaluate>
+   <g:evaluate var="jvar_can_view" expression="${category.canView()}" />
+   <j:if test="${jvar_can_view}">
+      <g:evaluate>
+         var itemList = category.getItemsNoDuplicates();
+      </g:evaluate>
+   
+      <div class="content_list_title">
+         <h3>${gs.getMessage('Catalog Items')}</h3>
+         <ul class="list_view_preference">
+            <g:set_if var="jvar_grid_button_class_name" test="${gs.getPreference('cms.catalog.item_list.style') == 'grid'}" true="active" false="disabled"/>
+            <g:set_if var="jvar_list_button_class_name" test="${gs.getPreference('cms.catalog.item_list.style') != 'grid'}" true="active" false="disabled"/>
+            <li><button class="${jvar_grid_button_class_name}" name="grid"><img src="grid.gifx" width="16" height="16"/>${gs.getMessage('Grid')}</button></li>
+            <li><button class="${jvar_list_button_class_name}" name="list"><img src="list.gifx" width="16" height="16"/>${gs.getMessage('List')}</button></li>
+         </ul>
+      </div>
+      <ol class="${gs.getPreference('cms.catalog.item_list.style', 'list')}">
+         <j:forEach items="${itemList}" var="jvar_item">
+            <g:set_if var="jvar_image_src" test="${jvar_item.getPicture() != ''}" true="${jvar_item.getPicture()}" false="${./images/icons/catalog_item.gifx}" />
+            <j:if test="${jvar_item.canView() &amp;&amp; jvar_item.isVisibleStandalone()}">
+               <g:sc_catalog_item_href />
+               <j:if test="${jvar_item.getType() != 'external'}">
+                  <g:set_if var="jvar_href" test="${empty(jvar_hint)}" false="${jvar_href}&amp;sysparm_processing_hint=${jvar_hint}" />
+                  <g:evaluate var="jvar_href">
+                     var t = '${jvar_href}${AMP}sysparm_no_search=true';
+                     GlideStringUtil.urlEncode(t);
+                  </g:evaluate>
+                  <g:evaluate jelly="true">
+					 var catalogItemRecord = jelly.jvar_item.getRecord();
+                     var pl = new GlideCMSPageLink();
+                     var contentType = GlideContentType.get(catalogItemRecord)
+                     var targetPage = contentType.getDetailPage(catalogItemRecord);
+                     var pageLink = pl.getPageLink(targetPage);
+                  </g:evaluate>
+                  <j:set var="jvar_href" value="${pageLink}?uri=${jvar_href}${AMP}sysparm_document_key=sc_cat_item,${jvar_item.getID()}" />
+               </j:if>
+               <li>
+                  <div class="type" onmousemove="popDiv(event, '${jvar_item.getID()}')" onmouseout="lockPopup(event)">
+                     <a class="image" href="${jvar_href}">
+                        <img class="icon" height="16" src="images/icons/catalog_item.gifx" width="16" />
+                        <img class="thumbnail" src="${jvar_image_src}" />
+                     </a>
+                  </div>
+                  <div class="title">
+                     <a href="${jvar_href}">${jvar_item.getName()}</a>
+                  </div>
+                  <div class="price">
+                     <g:evaluate var="jvar_should_display_price">
+                        var priceProperty = gs.getProperty('glide.sc.price.display');
+                        var shouldDisplayPrice = true;
+                        if (priceProperty == 'never')
+                           shouldDisplayPrice = false;
+                        else if (priceProperty == 'non_zero' &amp;&amp; ${jvar_item.getPrice()} == 0)
+                           shouldDisplayPrice = false;
+                           
+                        shouldDisplayPrice;
+                     </g:evaluate>
+                     <j:if test="${jvar_should_display_price}">
+                        <g:currency_format value="${jvar_item.getLocalizedPrice()}" />
+                     </j:if>
+                     <j:if test="${!jvar_should_display_price}">
+                        ${SP}
+                     </j:if>
+                  </div>
+               </li>
+            </j:if>
+         </j:forEach>
+      </ol>
+   </j:if>
+   <j:if test="${!jvar_can_view}">
+
+       <div class="outputmsg outputmsg_error">
+          <img class="outputmsg_image" src="images/outputmsg_error_24.gifx" title="${gs.getMessage('Error Message')}"/>
+          <div class="outputmsg_text">
+      		<span>${gs.getMessage('Unable to view Category for')} sys_id:${documentID}</span>
+          </div>
+       </div>
+
+   </j:if>
+</div> 
+<div class="clearfix" style="clear: both" />
+<script type="text/javascript">
+   $(document).observe('dom:loaded', function() {
+      $$('.list_view_preference button').invoke('observe', 'click', function() {
+         if ($(this).readAttribute('className') == 'active')
+            return; // Don't do anything if it's already the active button
+
+         $(this).up('.list_view_preference').select('button.active').invoke('writeAttribute', 'className', 'disabled');
+         $(this).writeAttribute('className', 'active');
+         var listPreference = $(this).getAttribute('name');
+         $(this).up('div.content_list_container').select('ol').first().writeAttribute('className', listPreference);
+         if (typeof setPreference != 'undefined')
+            setPreference('cms.catalog.item_list.style', listPreference);
+      });
+   });
+</script>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:18</sys_created_on>
+        <sys_id>898d988d4fc60300ce2cb3728110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - Catalog Items ListGrid</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_programmatic_898d988d4fc60300ce2cb3728110c7ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:18</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_site">
+    <content_site action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_cartless>false</catalog_cartless>
+        <catalog_headless>false</catalog_headless>
+        <default_layout display_value="Admin 1 Column">7a008a34ef331000914304167b2256a9</default_layout>
+        <default_page/>
+        <default_theme display_value="Default">d3b41f050a0005c6002ed8b65d6a92e2</default_theme>
+        <description/>
+        <gauge_page/>
+        <login_page/>
+        <name>LIMS</name>
+        <search_page/>
+        <sys_class_name>content_site</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-21 18:32:08</sys_created_on>
+        <sys_id>459455884f020300ce2cb3728110c728</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LIMS</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_site_459455884f020300ce2cb3728110c728</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-21 18:32:08</sys_updated_on>
+        <title>Lab Notebook</title>
+        <url_suffix>lims</url_suffix>
+    </content_site>
+    <sys_translated_text action="delete_multiple" query="documentkey=459455884f020300ce2cb3728110c728"/>
+</record_update>

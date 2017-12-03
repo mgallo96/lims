@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_162177_lims.sample_master_user" name="x_162177_lims.sample_master_user">1e48958c4f020300ce2cb3728110c7ec</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>ryan.gray</sys_created_by>
+        <sys_created_on>2017-10-21 18:45:08</sys_created_on>
+        <sys_id>5a48958c4f020300ce2cb3728110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1e48958c4f020300ce2cb3728110c7ec</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5a48958c4f020300ce2cb3728110c7ee</sys_update_name>
+        <sys_updated_by>ryan.gray</sys_updated_by>
+        <sys_updated_on>2017-10-21 18:45:08</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

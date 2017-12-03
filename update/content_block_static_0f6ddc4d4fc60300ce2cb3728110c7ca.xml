@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Lab Info Management - Portal - Footer</name>
+        <static_content><![CDATA[
+<br />
+<div class="cms_footer_container">
+     <p class="cms_footer">Service Portal powered by ServiceNow</p>
+     
+</div>
+<br />]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:54</sys_created_on>
+        <sys_id>0f6ddc4d4fc60300ce2cb3728110c7ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - Portal - Footer</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_static_0f6ddc4d4fc60300ce2cb3728110c7ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:01:54</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=0f6ddc4d4fc60300ce2cb3728110c7ca"/>
+</record_update>

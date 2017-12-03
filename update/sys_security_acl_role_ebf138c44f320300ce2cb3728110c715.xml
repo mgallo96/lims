@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>davis.pham</sys_created_by>
+        <sys_created_on>2017-11-27 22:44:56</sys_created_on>
+        <sys_id>ebf138c44f320300ce2cb3728110c715</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_162177_lims_quality_assurance.x_162177_lims.quality_assurance_user</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_security_acl display_value="x_162177_lims_quality_assurance">e3f138c44f320300ce2cb3728110c713</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ebf138c44f320300ce2cb3728110c715</sys_update_name>
+        <sys_updated_by>davis.pham</sys_updated_by>
+        <sys_updated_on>2017-11-27 22:44:56</sys_updated_on>
+        <sys_user_role display_value="x_162177_lims.quality_assurance_user" name="x_162177_lims.quality_assurance_user">1ff1b8c04f320300ce2cb3728110c716</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

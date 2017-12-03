@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2017-12-03 01:11:16">
+    <sys_portal action="delete_multiple" query="page=3f061dc84f020300ce2cb3728110c73b">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="">3f061dc84f020300ce2cb3728110c73b</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-10-21 19:37:42</sys_created_on>
+                <sys_id>105421484f420300ce2cb3728110c7b1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-10-21 19:37:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-10-21 15:37:42">105421484f420300ce2cb3728110c7b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-10-21 19:37:42</sys_created_on>
+                        <sys_id>185421484f420300ce2cb3728110c7b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-10-21 19:37:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderMenus</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-10-21 15:37:42">105421484f420300ce2cb3728110c7b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-10-21 19:37:42</sys_created_on>
+                        <sys_id>1c5421484f420300ce2cb3728110c7b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-10-21 19:37:42</sys_updated_on>
+                        <value>Lab Notebook</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-10-21 15:37:42">105421484f420300ce2cb3728110c7b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-10-21 19:37:42</sys_created_on>
+                        <sys_id>905421484f420300ce2cb3728110c7b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-10-21 19:37:42</sys_updated_on>
+                        <value>5c9f888e4f610300ce2cb3728110c703</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-10-21 15:37:42">105421484f420300ce2cb3728110c7b1</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-10-21 19:37:42</sys_created_on>
+                        <sys_id>905421484f420300ce2cb3728110c7b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-10-21 19:37:42</sys_updated_on>
+                        <value>3f061dc84f020300ce2cb3728110c73b</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="LIMS">459455884f020300ce2cb3728110c728</content_site>
+        <content_theme/>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout/>
+        <model_id/>
+        <model_table/>
+        <name/>
+        <order/>
+        <parent_page display_value="CMS Administration">d1421954ef481000914304167b225602</parent_page>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-21 19:15:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f061dc84f020300ce2cb3728110c73b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_page_3f061dc84f020300ce2cb3728110c73b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-21 19:37:42</sys_updated_on>
+        <title/>
+        <url_suffix/>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>

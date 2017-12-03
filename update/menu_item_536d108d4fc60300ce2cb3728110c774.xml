@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="menu_item">
+    <menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <detail_page/>
+        <iframe/>
+        <image/>
+        <logged_on>false</logged_on>
+        <menu_section display_value="Business Services">d76d108d4fc60300ce2cb3728110c772</menu_section>
+        <name>Desktop Computing</name>
+        <order>10</order>
+        <roles/>
+        <sys_class_name>menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:55</sys_created_on>
+        <sys_id>536d108d4fc60300ce2cb3728110c774</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Desktop Computing</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>menu_item_536d108d4fc60300ce2cb3728110c774</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:01:55</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>url</type>
+        <url>category_browse.do?sysparm_document_key=sc_category,c111170a0a0a0b830050fd30ab7d7604</url>
+    </menu_item>
+</record_update>

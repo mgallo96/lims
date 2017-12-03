@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_type">
+    <content_type action="INSERT_OR_UPDATE">
+        <content_site display_value="Lab Info Management">b66d1c4d4fc60300ce2cb3728110c783</content_site>
+        <detail><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <g:evaluate>
+     var gr = new GlideRecord('content_block_iframe');
+     gr.initialize();
+     gr.frame_name = 'gsft_main';
+     var url = RP.getParameterValue('uri');
+     if (gs.getProperty("glide.cms.catalog_uri_relative", false) == "true")
+        url = GlideSecurityUtils.enforceRelativeURL(url);
+     gr.url = url;
+     gr.sizing = 'expand';
+     gr.putCurrent();
+  </g:evaluate>
+  <g:render_content_block_iframe />
+  <g:evaluate>
+     gr.popCurrent();
+  </g:evaluate>
+</j:jelly>]]></detail>
+        <detail_page display_value="Lab Info Management - Portal - Default Content">968d5c8d4fc60300ce2cb3728110c738</detail_page>
+        <gauge_page/>
+        <media_type/>
+        <summary><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  ${current.getDisplayValue()}
+</j:jelly>]]></summary>
+        <sys_class_name>content_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:28</sys_created_on>
+        <sys_id>db8ddc8d4fc60300ce2cb3728110c751</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEFAULT</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_type_db8ddc8d4fc60300ce2cb3728110c751</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:28</sys_updated_on>
+        <two_phase>false</two_phase>
+        <type>DEFAULT</type>
+    </content_type>
+</record_update>

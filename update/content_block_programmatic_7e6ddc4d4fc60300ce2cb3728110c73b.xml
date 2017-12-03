@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame display_value="Search Box Frame and Breadcrumb">cf4b6c840a0a0b6300b2826c4922622f</frame>
+        <logged_on>false</logged_on>
+        <name>Lab Info Management - Global Homepage Search Block</name>
+        <programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+ <!--
+   When a search is issued, results from this search operation will be driven the the search page
+   that is configured in your Content Management configuration page. You can access the configuration page
+   under Content Management -> Configuration.
+
+   Once there, change the "Search Form" field to point to whichever page you want the search to point to.
+ -->
+
+
+ <form name="content_search" id="content_search" action="content_search.do" method="post" style="padding-left:5px; padding-bottom:10px;">
+                       <input type="HIDDEN" value="${current_page.getSiteID()}" name="sysparm_current_site"/>            
+                       <span class="globalSearch contextSearch" >
+                           <g:text_search_widget size="68"/> 
+                       </span> 
+                 
+ </form>
+ <script eval="true">
+  var ajax = new GlideAjax("TextSearchAjax");
+  ajax.addParam("sysparm_name", "recent");
+  ajax.getXML(adjustSearchResponse);
+
+  function adjustSearchResponse(request) {
+    var answer =  request.responseXML.documentElement.getAttribute("answer");
+
+    if (answer != null) {
+    	var gcm = new GwtContextMenu('context_search');
+	    gcm.clear();
+        if (answer.indexOf("xyzzyx") != 0) {
+	    	var db = answer.split("^");
+	    	for (var i = 0; i != db.length; i++) {
+			     gcm.addHref(htmlEscape(db[i]), "content_search('"+db[i]+"')");
+		    }
+		} else gcm.addLabel(htmlEscape(answer.substr(6)));
+    }
+  } 
+
+
+function content_search(term) {
+   gel('content_search').sysparm_search.value=term;
+   gel('content_search').submit();
+}
+ </script>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:53</sys_created_on>
+        <sys_id>7e6ddc4d4fc60300ce2cb3728110c73b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - Global Homepage Search Block</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_programmatic_7e6ddc4d4fc60300ce2cb3728110c73b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:01:53</sys_updated_on>
+        <two_phase>true</two_phase>
+    </content_block_programmatic>
+</record_update>

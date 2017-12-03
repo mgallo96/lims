@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>testing23</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>davis.pham</sys_created_by>
+        <sys_created_on>2017-10-24 16:49:46</sys_created_on>
+        <sys_id>d5aad4c94fc60300ce2cb3728110c7ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing23</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_ui_view_d5aad4c94fc60300ce2cb3728110c7ea</sys_update_name>
+        <sys_updated_by>davis.pham</sys_updated_by>
+        <sys_updated_on>2017-10-24 16:49:46</sys_updated_on>
+        <title>Testing23</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

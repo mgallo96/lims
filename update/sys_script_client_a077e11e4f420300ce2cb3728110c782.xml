@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>description</field>
+        <global>true</global>
+        <messages/>
+        <name>descriptionChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if (newValue != '') {
+      var nameValue = g_form.getValue('name');
+      var quantityValue = g_form.getValue('quantity');
+      var descriptionLabel = g_form.getLabel('description');
+      descriptionLabel.style.backgroundColor = '#FFFFFF'
+      if (nameValue === '') {
+         var nameLabel = g_form.getLabel('name');
+         nameLabel.style.backgroundColor = '#FFFF00'
+      }
+      else {
+         var nameLabel = g_form.getLabel('name');
+         nameLabel.style.backgroundColor = '#FFFFFF'
+      }
+      if (quantityValue === '') {
+         var quantityLabel = g_form.getLabel('quantity');
+         quantityLabel.style.backgroundColor = '#FFFF00'
+      }
+      else {
+         var quantityLabel = g_form.getLabel('quantity');
+         quantityLabel.style.backgroundColor = '#FFFFFF'
+      }
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ryan.gray</sys_created_by>
+        <sys_created_on>2017-10-28 19:40:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a077e11e4f420300ce2cb3728110c782</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>descriptionChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_script_client_a077e11e4f420300ce2cb3728110c782</sys_update_name>
+        <sys_updated_by>ryan.gray</sys_updated_by>
+        <sys_updated_on>2017-10-28 19:40:50</sys_updated_on>
+        <table>x_162177_lims_sample</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

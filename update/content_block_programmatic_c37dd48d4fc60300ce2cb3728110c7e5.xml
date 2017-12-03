@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Lab Info Management - Catalog Search Results</name>
+        <programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <j:set var="jvar_cms_search_result" value="true"/>
+
+  <g2:evaluate jelly="true">
+		var catalog = SNC.GlideHTMLSanitizer.sanitize(RP.getParameterValue("sysparm_catalog")) + "";
+		var parent = SNC.GlideHTMLSanitizer.sanitize(RP.getParameterValue('sysparm_parent')) + "";
+		var safe_search_term = SNC.GlideHTMLSanitizer.sanitize(RP.getParameterValue('sysparm_search')) + "";
+		var catalog_view = SNC.GlideHTMLSanitizer.sanitize(RP.getParameterValue('sysparm_catalog_view')) + "";
+	    var processing_hint = SNC.GlideHTMLSanitizer.sanitize(RP.getParameterValue('sysparm_processing_hint')) + "";
+		var display_search_term = GlideStringUtil.escapeHTML(RP.getParameterValue('sysparm_search')) + "";
+  </g2:evaluate>
+	
+  <g2:evaluate var="jvar_item" jelly="true">
+    var item = SNC.CatalogSearch.search(catalog, parent, RP.getParameterValue('sysparm_search')+"", false);
+    item;
+  </g2:evaluate>
+  <j:set var="sysparm_search_page" value="catalog_find.do"/>
+	
+  <g:inline template="com.glideapp.servicecatalog_category_search.xml" />
+
+  <table class="wide" cellspacing="0">
+    <tr class="header" border="0" cellspacing="0">
+      <td class="column_head" colspan="3">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr class="header" border="0" cellspacing="0">
+			<form method="GET" action="${sysparm_base_form}.do" name="${sysparm_base_form}.do">
+				<input type="HIDDEN" name="sys_action" value="none" />
+				<input type="HIDDEN" name="sysparm_modify_check" value="true" />
+				<td>
+					<input type="HIDDEN" id="sysverb_back" />
+					<img name="not_important" 
+						 value="sysverb_back" 
+						 id="sysverb_back" 
+						 onClick="history.go(-1);" 
+						 src="images/green_back.gifx" 
+						 title="${gs.getMessage('Back')}"
+						 alt="${gs.getMessage('Back')}" 
+						 style="cursor:hand; margin-left: 4px; margin-top: 3px; margin-bottom: 3px;"/>
+				</td>
+			</form>
+			<td>
+				<div class="caption" style="margin-top: 2px;">
+					${gs.getMessage('catalog_search')}
+				</div>
+			</td>
+		</tr>
+		</table>
+      </td>
+    </tr>
+	  
+	<j2:set var="jvar_printed_some" value="false"/>
+	<g2:com.glideapp.servicecatalog_search type="catalogFind" term="$[safe_search_term]" catalog="$[catalog]" view="$[catalog_view]" hint="$[processing_hint]" category="$[jvar_parent]" />
+
+	<j2:if test="$[jvar_printed_some == false]">
+		<g2:evaluate var="jvar_item" expression="gs.flushMessages();"/>
+		<tr>
+			<td>
+				<div style="margin-top: 5px; font-size: 13pt;"> ${gs.getMessage('Your search')} "<b>$[display_search_term]</b>" ${gs.getMessage('did not match any documents')}.</div>
+			</td>
+		</tr>
+	</j2:if>
+  </table>
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:10</sys_created_on>
+        <sys_id>c37dd48d4fc60300ce2cb3728110c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - Catalog Search Results</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_programmatic_c37dd48d4fc60300ce2cb3728110c7e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:10</sys_updated_on>
+        <two_phase>true</two_phase>
+    </content_block_programmatic>
+</record_update>

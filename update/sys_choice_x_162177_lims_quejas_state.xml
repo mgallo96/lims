@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_162177_lims_quejas" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_162177_lims_quejas</name>
+            <sequence>1</sequence>
+            <sys_created_by>ryan.gray</sys_created_by>
+            <sys_created_on>2017-11-13 22:46:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ffbe46b4f120300ce2cb3728110c782</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryan.gray</sys_updated_by>
+            <sys_updated_on>2017-11-13 23:20:45</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_162177_lims_quejas</name>
+            <sequence>2</sequence>
+            <sys_created_by>ryan.gray</sys_created_by>
+            <sys_created_on>2017-11-13 22:46:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>581c686b4f120300ce2cb3728110c755</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ryan.gray</sys_updated_by>
+            <sys_updated_on>2017-11-13 23:20:41</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_162177_lims_quejas</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ryan.gray</sys_created_by>
+            <sys_created_on>2017-11-13 22:46:23</sys_created_on>
+            <sys_id>141c6c6b4f120300ce2cb3728110c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+            <sys_update_name>sys_choice_x_162177_lims_quejas_state</sys_update_name>
+            <sys_updated_by>ryan.gray</sys_updated_by>
+            <sys_updated_on>2017-11-13 22:46:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

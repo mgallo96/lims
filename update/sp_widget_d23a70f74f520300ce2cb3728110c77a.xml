@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.iconlink a label,h2 {&#13;
+  display: block;&#13;
+  font-size: 1.5rem;&#13;
+  font-weight: 200;&#13;
+  line-height: 1.1;&#13;
+  padding: 0;&#13;
+  margin: 0 0 0 0;&#13;
+}&#13;
+&#13;
+/* TOP ICON ---------- */&#13;
+&#13;
+a.top_icon {&#13;
+  display: block;&#13;
+  padding: 20px;&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+a.top_icon .fa {&#13;
+  display: block;&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+/* CIRCLE ICON ---------- */&#13;
+&#13;
+a.circle_icon {&#13;
+  display: block;&#13;
+  padding: 20px 0px 20px 70px;&#13;
+  position: relative;&#13;
+}&#13;
+&#13;
+a.circle_icon .fa {&#13;
+  position:absolute;&#13;
+  left: 0px;&#13;
+  top: 10px;&#13;
+}&#13;
+&#13;
+/* COLOR BOX ---------- */&#13;
+&#13;
+a.color_box {&#13;
+  display: block;&#13;
+  position: relative;&#13;
+  padding: 10px 10px 10px 41px;&#13;
+  border-radius: 4px;&#13;
+  margin-bottom: 40px;&#13;
+}&#13;
+&#13;
+a.color_box .fa {&#13;
+  position:absolute;&#13;
+  left: 5px;&#13;
+  top: 10px;&#13;
+  width:21px;&#13;
+  text-align: left;&#13;
+}&#13;
+&#13;
+.icon-link-background-primary {&#13;
+  background-color: $brand-primary;&#13;
+}&#13;
+&#13;
+.icon-link-background-info {&#13;
+  background-color: $brand-info;&#13;
+}&#13;
+&#13;
+.icon-link-background-success {&#13;
+  background-color: $brand-success;&#13;
+}&#13;
+&#13;
+.icon-link-background-warning {&#13;
+  background-color: $brand-warning;&#13;
+}&#13;
+&#13;
+.icon-link-background-danger {&#13;
+  background-color: $brand-danger;&#13;
+}&#13;
+&#13;
+.icon-link-background-default {&#13;
+  background-color: $brand-primary;&#13;
+}&#13;
+&#13;
+.text-primary {&#13;
+  color: $brand-primary;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-primary, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-info {&#13;
+  color: $brand-info;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-info, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-success {&#13;
+  color: $brand-success;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-success, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-warning {&#13;
+  color: $brand-warning;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-warning, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-danger {&#13;
+  color: $brand-danger;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-danger, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-default {&#13;
+  color: $brand-primary;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-primary, 20%);&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance_link</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,short_description,glyph,class_name,type,sc_category,url,kb_article,kb_topic,kb_category,sc_cat_item,sp_page,color</field_list>
+        <has_preview>false</has_preview>
+        <id>icon-link-lims</id>
+        <internal>false</internal>
+        <link/>
+        <name>icon-link-lims</name>
+        <option_schema>[{"name":"link_template","label":"Template","type":"choice","choices":[{"label":"Top Icon","value":"Top Icon"},{"label":"Circle Icon","value":"Circle Icon"},{"label":"Color Box","value":"Color Box"}]}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	var gr = $sp.getInstanceRecord();
+	data.href = $sp.getMenuHREF(gr);
+	data.target = options.target || "";
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-14 18:26:42</sys_created_on>
+        <sys_id>d23a70f74f520300ce2cb3728110c77a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>icon-link-lims</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sp_widget_d23a70f74f520300ce2cb3728110c77a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-15 22:50:57</sys_updated_on>
+        <template><![CDATA[<div class="iconlink">
+  <!--// Top Icon -->
+  <a ng-if="::(options.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}">
+    <div class="m-b fa fa-{{::options.glyph}} fa-4x {{::options.class_name}} text-{{::options.color}}"></div>
+    <h2>{{::options.title}}</h2>
+    <span class="text-muted">{{::options.short_description}}</span>
+  </a>
+
+  <!--// Circle Icon -->
+  <a ng-if="::(options.link_template == 'Circle Icon')" ng-href="{{::data.href}}" class="circle_icon {{::options.class_name}} text-{{::options.color}}" target="{{::data.target}}">
+    <span class="fa fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-{{::options.glyph}} fa-stack-1x fa-inverse"></i>
+    </span>
+    <h2>{{::options.title}}</h2>
+    <span class="text-muted">{{::options.short_description}}</span>
+  </a>
+
+  <!--// Color Box -->
+  <a ng-if="::(options.link_template == 'Color Box')" ng-href="{{::data.href}}" class="color_box {{::options.class_name}} icon-link-background-{{::options.color}} text-white" target="{{::data.target}}">
+    <div class="fa fa-{{::options.glyph}} fa-3x {{::options.class_name}}"></div>
+    <h2>{{::options.title}}</h2>
+    <span>{{::options.short_description}}</span>
+  </a>
+</div>]]></template>
+    </sp_widget>
+</record_update>

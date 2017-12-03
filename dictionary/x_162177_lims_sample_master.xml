@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sample (Master)" max_length="40" name="x_162177_lims_sample_master" type="collection">
+        <element label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+    </element>
+</database>

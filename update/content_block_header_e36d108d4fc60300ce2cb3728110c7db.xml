@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_header">
+    <content_block_header action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background>color</background>
+        <bg_color>#ffffff</bg_color>
+        <bg_image/>
+        <bottom_color>#d1232b</bottom_color>
+        <bottom_menu display_value="Lab Info Management - Portal - Header Bottom Super Menu">038d9c8d4fc60300ce2cb3728110c7b4</bottom_menu>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <font_sizer>true</font_sizer>
+        <frame/>
+        <height/>
+        <logged_on>false</logged_on>
+        <login>true</login>
+        <logo/>
+        <name>Lab Info Management - Portal - Header with Super Menu</name>
+        <search>true</search>
+        <sys_class_name>content_block_header</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:56</sys_created_on>
+        <sys_id>e36d108d4fc60300ce2cb3728110c7db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Lab Info Management - Portal - Header with Super Menu</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_header_e36d108d4fc60300ce2cb3728110c7db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:27</sys_updated_on>
+        <text>CMS Code Example Demos</text>
+        <top_color>#eeeeee</top_color>
+        <top_menu display_value="Lab Info Management - Portal - Header Account Menu">c38d9c8d4fc60300ce2cb3728110c7b0</top_menu>
+    </content_block_header>
+</record_update>

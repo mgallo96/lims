@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Complaints" language="en" table="x_162177_lims_quejas">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Complaints</label>
+            <language>en</language>
+            <name>x_162177_lims_quejas</name>
+            <plural>Complaints</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>davis.pham</sys_created_by>
+            <sys_created_on>2017-11-01 21:50:44</sys_created_on>
+            <sys_id>4c4c6ea74f020300ce2cb3728110c712</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Complaints</sys_name>
+            <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+            <sys_update_name>sys_documentation_x_162177_lims_quejas__en</sys_update_name>
+            <sys_updated_by>ryan.gray</sys_updated_by>
+            <sys_updated_on>2017-11-07 17:58:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

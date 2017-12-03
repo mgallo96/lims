@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_iframe">
+    <content_block_iframe action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <frame_name>gsft_main</frame_name>
+        <height>600</height>
+        <logged_on>false</logged_on>
+        <name>Lab Info Management - My Profile</name>
+        <sizing>expand</sizing>
+        <sys_class_name>content_block_iframe</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:21</sys_created_on>
+        <sys_id>e18d1c8d4fc60300ce2cb3728110c71d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - My Profile</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_iframe_e18d1c8d4fc60300ce2cb3728110c71d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:21</sys_updated_on>
+        <url>sys_user.do?sysparm_query=sys_id=javascript:gs.getUserID()&amp;sysparm_stack=no&amp;sysparm_view=ess</url>
+        <width>400</width>
+    </content_block_iframe>
+</record_update>

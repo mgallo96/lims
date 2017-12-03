@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_site">
+    <content_site action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_cartless>false</catalog_cartless>
+        <catalog_headless>true</catalog_headless>
+        <default_layout display_value="Lab Info Management - CMS 2 Column Narrow Left">d78ddc8d4fc60300ce2cb3728110c718</default_layout>
+        <default_page display_value="Lab Info Management - Portal">376d508d4fc60300ce2cb3728110c758</default_page>
+        <default_theme display_value="Lab Info Management - Gray">db8ddc8d4fc60300ce2cb3728110c726</default_theme>
+        <description/>
+        <gauge_page display_value="Lab Info Management - Portal - Gauge Target">ab6d108d4fc60300ce2cb3728110c7ea</gauge_page>
+        <login_page display_value="Lab Info Management - Portal - Login Page">a27d948d4fc60300ce2cb3728110c7cc</login_page>
+        <name>Lab Info Management</name>
+        <search_page display_value="Lab Info Management - Portal - Search Results">717d548d4fc60300ce2cb3728110c7e3</search_page>
+        <sys_class_name>content_site</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:28</sys_created_on>
+        <sys_id>b66d1c4d4fc60300ce2cb3728110c783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_site_b66d1c4d4fc60300ce2cb3728110c783</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:28</sys_updated_on>
+        <title>ServiceNow</title>
+        <url_suffix>Lab_Info_Management</url_suffix>
+    </content_site>
+    <sys_translated_text action="delete_multiple" query="documentkey=b66d1c4d4fc60300ce2cb3728110c783"/>
+</record_update>

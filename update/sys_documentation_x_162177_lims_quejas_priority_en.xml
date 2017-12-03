@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="priority" label="Priority" language="en" table="x_162177_lims_quejas">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <help/>
+            <hint/>
+            <label>Priority</label>
+            <language>en</language>
+            <name>x_162177_lims_quejas</name>
+            <plural>Priorities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ryan.gray</sys_created_by>
+            <sys_created_on>2017-11-13 22:48:41</sys_created_on>
+            <sys_id>7d9cecab4f120300ce2cb3728110c735</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Priority</sys_name>
+            <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+            <sys_update_name>sys_documentation_x_162177_lims_quejas_priority_en</sys_update_name>
+            <sys_updated_by>ryan.gray</sys_updated_by>
+            <sys_updated_on>2017-11-13 22:48:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

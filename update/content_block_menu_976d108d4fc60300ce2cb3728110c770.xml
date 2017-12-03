@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_menu">
+    <content_block_menu action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <align_sections_with_tab>false</align_sections_with_tab>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Lab Info Management - Service Portfolio Management</name>
+        <sys_class_name>content_block_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:55</sys_created_on>
+        <sys_id>976d108d4fc60300ce2cb3728110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - Service Portfolio Management</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_menu_976d108d4fc60300ce2cb3728110c770</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:01:55</sys_updated_on>
+        <type>horizontal_blocks</type>
+    </content_block_menu>
+</record_update>

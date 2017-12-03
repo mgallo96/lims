@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>layout</category>
+        <description>2 columns with wide right column, header, and footer</description>
+        <media_type/>
+        <name>Lab Info Management - CMS 2 Column Narrow Left</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:27</sys_created_on>
+        <sys_id>d78ddc8d4fc60300ce2cb3728110c718</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - CMS 2 Column Narrow Left</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_ui_macro_d78ddc8d4fc60300ce2cb3728110c718</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:27</sys_updated_on>
+        <xml><![CDATA[<div class="cms_layout_container">
+	<table class="cms_layout_table" id="${jvar_name}" border="0" cellspacing="0" cellpadding="0" width="100%">
+		<tr width="100%" >
+			<td class="cms_layout_content_header">
+			
+				<div class="content_header_container">
+				<table class="content_header_table" cellspacing="0" cellpadding="0" width="100%">
+					<tr>
+						<td id="dropzone0" dropzone="true" width="100%"/>
+					</tr>
+				</table>	
+				</div>
+				
+			</td>
+		</tr>
+		<tr>
+			<td class="cms_layout_content_body" width="100%" >
+			
+				<div  class="content_body_container">
+				<table class="content_body_table">
+					<tr>
+						<td id="dropzone20" dropzone="true" width="214"/>
+						<td id="dropzone10" dropzone="true" width="100%"/>
+					</tr>
+				</table>
+				</div>
+				
+			</td>
+		</tr>
+		<tr>
+			<td class="cms_layout_content_footer">
+			
+				<div class="content_footer_container">
+				<table class="content_footer_table" cellspacing="0" cellpadding="0" width="100%">
+					<tr>
+						<td id="dropzone100" dropzone="true" width="100%" height="20"/>
+					</tr>
+				</table>
+				</div>
+				
+			</td>
+		</tr>
+	</table>
+</div>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_header">
+    <content_block_header action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background>image</background>
+        <bg_color/>
+        <bg_image/>
+        <bottom_color/>
+        <bottom_menu display_value="Lab Info Management - CMS Administration Header Bottom Menu">cf8d9c8d4fc60300ce2cb3728110c781</bottom_menu>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <font_sizer>true</font_sizer>
+        <frame/>
+        <height/>
+        <logged_on>false</logged_on>
+        <login>true</login>
+        <logo/>
+        <name>Lab Info Management - CMS Administration Header</name>
+        <search>true</search>
+        <sys_class_name>content_block_header</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:54</sys_created_on>
+        <sys_id>0b6ddc4d4fc60300ce2cb3728110c7c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Lab Info Management - CMS Administration Header</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_block_header_0b6ddc4d4fc60300ce2cb3728110c7c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:27</sys_updated_on>
+        <text>CMS Administration</text>
+        <top_color/>
+        <top_menu display_value="Lab Info Management - CMS Administration Header Top Menu">4b8d9c8d4fc60300ce2cb3728110c77c</top_menu>
+    </content_block_header>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="9500e88f4f020300ce2cb3728110c715" sys_domain="global" table="x_162177_lims_inventory" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>davis.pham</sys_created_by>
+            <sys_created_on>2017-10-30 22:21:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d900e88f4f020300ce2cb3728110c717</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_162177_lims_inventory" name="x_162177_lims_inventory" sys_domain="global" view="Default view">9500e88f4f020300ce2cb3728110c715</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_162177_lims_inventory" sys_domain="global" view="Default view">b78b6e954f020300ce2cb3728110c731</sys_ui_section>
+            <sys_updated_by>davis.pham</sys_updated_by>
+            <sys_updated_on>2017-10-30 22:21:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>davis.pham</sys_created_by>
+            <sys_created_on>2017-10-30 22:21:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d500e88f4f020300ce2cb3728110c718</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_162177_lims_inventory" name="x_162177_lims_inventory" sys_domain="global" view="Default view">9500e88f4f020300ce2cb3728110c715</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_162177_lims_inventory" sys_domain="global" view="Default view">d100e88f4f020300ce2cb3728110c714</sys_ui_section>
+            <sys_updated_by>davis.pham</sys_updated_by>
+            <sys_updated_on>2017-10-30 22:21:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_162177_lims_inventory</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>davis.pham</sys_created_by>
+            <sys_created_on>2017-10-30 22:21:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9500e88f4f020300ce2cb3728110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_162177_lims_inventory</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9500e88f4f020300ce2cb3728110c715</sys_update_name>
+            <sys_updated_by>davis.pham</sys_updated_by>
+            <sys_updated_on>2017-10-30 22:21:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

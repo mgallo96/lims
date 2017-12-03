@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2017-12-03 01:11:16">
+    <sys_portal action="delete_multiple" query="page=29af18814f0a0300ce2cb3728110c7f5"/>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="LIMS">459455884f020300ce2cb3728110c728</content_site>
+        <content_theme/>
+        <description/>
+        <frame_buster>true</frame_buster>
+        <layout/>
+        <model_id/>
+        <model_table>x_162177_lims_lab_notebook</model_table>
+        <name>LIMS</name>
+        <order/>
+        <parent_page display_value="CMS Administration">d1421954ef481000914304167b225602</parent_page>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:19:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29af18814f0a0300ce2cb3728110c7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LIMS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_page_29af18814f0a0300ce2cb3728110c7f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:19:43</sys_updated_on>
+        <title>Lab Notebook</title>
+        <url_suffix>lims</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Quality Assurance</name>
+        <order/>
+        <roles>x_162177_lims.quality_assurance_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>davis.pham</sys_created_by>
+        <sys_created_on>2017-11-27 22:44:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7f138c44f320300ce2cb3728110c708</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quality Assurance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_ui_application_d7f138c44f320300ce2cb3728110c708</sys_update_name>
+        <sys_updated_by>davis.pham</sys_updated_by>
+        <sys_updated_on>2017-11-27 22:44:56</sys_updated_on>
+    </sys_ui_application>
+</record_update>

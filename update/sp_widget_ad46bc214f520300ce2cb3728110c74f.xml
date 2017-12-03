@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>samples_button</id>
+        <internal>false</internal>
+        <link/>
+        <name>samples_button</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[function($scope, spUtil, $location) {
+  $scope.$on('data_table.click',function(e,parms){
+		var p = $scope.data.page_id || 'form';
+		var s = {id: p, table: parms.table, sys_id: parms.sys_id, view: 'sp'};
+		$location.search(s);
+	});
+	$scope.myFunction = function(){
+		alert("Test");
+	};
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-07 18:23:08</sys_created_on>
+        <sys_id>ad46bc214f520300ce2cb3728110c74f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>samples_button</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sp_widget_ad46bc214f520300ce2cb3728110c74f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-14 16:33:20</sys_updated_on>
+        <template><![CDATA[<div class="buttondiv">
+  <input id = "my_button" class = "btn btn-primary btn-block" type = "button" value = "Samples" ng-click="myFunction()">
+<!-- your widget template -->
+</div>]]></template>
+    </sp_widget>
+</record_update>

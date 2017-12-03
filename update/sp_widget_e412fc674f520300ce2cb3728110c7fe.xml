@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  var c = this;
+	c.uiAction = function(action) {
+		c.data.action = action;
+		c.server.update().then(function() {
+			c.data.action = undefined;
+		})
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>new_button</id>
+        <internal>false</internal>
+        <link/>
+        <name>new_button</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	if(input && input.action){
+	var action = input.action;
+	
+	
+	if(action == 'Lab'){
+		var url = current.endpoint;
+		action.setRedirectURL('https://www.facebook.com/');
+		current.update();
+
+	}
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-13 23:12:37</sys_created_on>
+        <sys_id>e412fc674f520300ce2cb3728110c7fe</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>new_button</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sp_widget_e412fc674f520300ce2cb3728110c7fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-14 17:25:49</sys_updated_on>
+        <template><![CDATA[<div class="buttondiv">
+  <input id = "my_button" class = "btn btn-primary btn-block" type = "button" value = "New" ng-click="c.uiAction('Lab'">
+<!-- your widget template -->
+</div>]]></template>
+    </sp_widget>
+</record_update>

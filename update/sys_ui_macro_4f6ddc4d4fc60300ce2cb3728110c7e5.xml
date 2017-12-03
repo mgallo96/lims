@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>layout</category>
+        <description>1 column used for entry pages and login page</description>
+        <media_type/>
+        <name>Lab Info Management - CMS 1 Column</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:54</sys_created_on>
+        <sys_id>4f6ddc4d4fc60300ce2cb3728110c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - CMS 1 Column</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_ui_macro_4f6ddc4d4fc60300ce2cb3728110c7e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:01:54</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<div align="center" class="cms_layout_outer_container_1_column">
+<div align="center" class="cms_layout_container_1_column">
+
+	<table id="${jvar_name}" class="cms_layout_table_1_column" border="0" cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td id="dropzone0" dropzone="true" class="cms_layout_content_header" colspan="3" valign="top" style="text-align:left;"/>
+		</tr>
+		<tr>
+			<td colspan="3" valign="top">
+                             <div align="center">
+                                 <table class="cms_layout_table_1_column">
+                                    <tr><td id="dropzone10" dropzone="true" class="cms_layout_content_body" valign="top">
+                                    </td></tr>
+                                 </table>
+                             </div>
+                        </td>
+		</tr>
+		<tr>
+			<td id="dropzone100" dropzone="true" class="cms_layout_content_footer" colspan="3" valign="bottom"/>
+		</tr>
+	</table>
+
+</div>
+</div>
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

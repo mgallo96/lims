@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>Lab Info Management - Gray CSS - Header</name>
+        <style>/*************************************************&#13;
+Header styles&#13;
+*************************************************/&#13;
+&#13;
+div.cms_header, div.cms_header table {&#13;
+}&#13;
+&#13;
+td.cms_header_logo{&#13;
+    width: 1px;&#13;
+}&#13;
+&#13;
+.context_menu{
+position:absolute!important;
+}&#13;
+&#13;
+div.cms_header table.cms_header_table {&#13;
+    background: transparent;&#13;
+}&#13;
+&#13;
+div.cms_header table td {&#13;
+    background: transparent;&#13;
+}&#13;
+&#13;
+tr.cms_header_top_menu_row {&#13;
+    height: 24px;&#13;
+    margin: 0px;&#13;
+    padding: 0px;&#13;
+    line-height: 24px;&#13;
+}&#13;
+&#13;
+div.cms_header_top_menu, div.cms_header_login, div.cms_header_font_size, div.cms_header_search, div.cms_header_clear {&#13;
+}&#13;
+&#13;
+td.cms_header_top_menu {&#13;
+    text-align: right;&#13;
+    margin: 0px;&#13;
+    padding: 0px;&#13;
+    width:100%; &#13;
+    display:inline;&#13;
+}&#13;
+&#13;
+td.cms_header_top_menu div.cms_header_top_menu {&#13;
+    background: inherit;&#13;
+}&#13;
+&#13;
+td div.cms_header_search {&#13;
+    margin: 2px 5px 2px 2px;&#13;
+}&#13;
+&#13;
+td.cms_header_top_menu div.cms_header_login, td.cms_header_top_menu div.cms_header_font_size, td.cms_header_top_menu div.cms_header_search, td.cms_header_top_menu div.cms_header_clear{&#13;
+    display:inline; &#13;
+    float:right; &#13;
+    white-space:nowrap;&#13;
+} &#13;
+&#13;
+td.cms_header_top_menu div.cms_header_clear{&#13;
+    clear:both; &#13;
+}&#13;
+&#13;
+/*  Top Row styles and alignment*/&#13;
+/* search removes down arrow */&#13;
+img#imgText2 {&#13;
+    display: none;&#13;
+} &#13;
+&#13;
+/* login and logout */&#13;
+td.cms_header_login, td.cms_header_search {&#13;
+    text-align: right;&#13;
+    margin: 0px;&#13;
+    padding: 0px;&#13;
+}&#13;
+&#13;
+ td.cms_header_search {&#13;
+    padding-left: 4px;&#13;
+}&#13;
+&#13;
+/* for the user name/password 4fields when a login fails */&#13;
+.cms_login_failed_inputs {&#13;
+    background-color: #ffffcc&#13;
+}&#13;
+&#13;
+/* for the message that appears under the user name/password when a login fails */&#13;
+.cms_login_failed_message {&#13;
+    background-color: tomato;&#13;
+    color: white;&#13;
+    padding: 3px 20px 3px 20px;&#13;
+}  &#13;
+&#13;
+td.cms_header_text {&#13;
+    padding-top: 6px;&#13;
+    text-align: left;&#13;
+}  &#13;
+&#13;
+span.cms_header_text {&#13;
+    color: #AAA;&#13;
+    font-size:1.8em;&#13;
+    font-family:Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;&#13;
+    margin-left: 16px;&#13;
+} &#13;
+&#13;
+tr.cms_header_bottom_menu_row {&#13;
+        height: 24px;&#13;
+        margin: 0px;&#13;
+        padding: 0px;&#13;
+        line-height: 24px;&#13;
+        background-position: center top;&#13;
+        background-repeat: repeat-x;&#13;
+}&#13;
+&#13;
+tr.cms_header_bottom_menu_row, td.cms_header_bottom_menu {&#13;
+}&#13;
+&#13;
+td.cms_header_bottom_menu a {&#13;
+    /*color: #fff !important;   */&#13;
+}</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:27</sys_created_on>
+        <sys_id>9b8ddc8d4fc60300ce2cb3728110c728</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - Gray CSS - Header</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>content_css_9b8ddc8d4fc60300ce2cb3728110c728</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:27</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="menu_section">
+    <menu_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <contains_menu/>
+        <content_block_menu display_value="Lab Info Management - Manage Menu">6e7dd48d4fc60300ce2cb3728110c718</content_block_menu>
+        <db_left_menu_image/>
+        <db_right_menu_image/>
+        <detail_page display_value="Lab Info Management - CMS Administration">ce8d1c8d4fc60300ce2cb3728110c7ac</detail_page>
+        <footer><![CDATA[
+<p><span class="block_caption"> * CMS training and labs reference</span></p>
+]]></footer>
+        <header/>
+        <iframe/>
+        <image/>
+        <image_right/>
+        <logged_on>false</logged_on>
+        <name>Code Example Demos</name>
+        <omit_body>false</omit_body>
+        <order>30</order>
+        <roles/>
+        <second_level_text>Standalone Pages used to illustrate CMS integration points documentation</second_level_text>
+        <sys_class_name>menu_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:09</sys_created_on>
+        <sys_id>6e7dd48d4fc60300ce2cb3728110c73d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Code Example Demos</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>menu_section_6e7dd48d4fc60300ce2cb3728110c73d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:26</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>url</type>
+        <url/>
+    </menu_section>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e7dd48d4fc60300ce2cb3728110c73d"/>
+</record_update>

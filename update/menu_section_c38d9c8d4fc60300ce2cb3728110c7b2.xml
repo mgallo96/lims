@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="menu_section">
+    <menu_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <contains_menu display_value="Portal - Account Settings Menu">7621466c0a0005c646d7d76710ab7b01</contains_menu>
+        <content_block_menu display_value="Lab Info Management - Portal - Header Account Menu">c38d9c8d4fc60300ce2cb3728110c7b0</content_block_menu>
+        <db_left_menu_image/>
+        <db_right_menu_image/>
+        <detail_page display_value="">71de364f0a0005c66cd4a8eda9a08d10</detail_page>
+        <footer/>
+        <header/>
+        <iframe/>
+        <image/>
+        <image_right/>
+        <logged_on>true</logged_on>
+        <name>Account Settings</name>
+        <omit_body>false</omit_body>
+        <order>200</order>
+        <roles/>
+        <second_level_text/>
+        <sys_class_name>menu_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:02:27</sys_created_on>
+        <sys_id>c38d9c8d4fc60300ce2cb3728110c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Account Settings</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>menu_section_c38d9c8d4fc60300ce2cb3728110c7b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:02:27</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>url</type>
+        <url/>
+    </menu_section>
+    <sys_translated_text action="delete_multiple" query="documentkey=c38d9c8d4fc60300ce2cb3728110c7b2"/>
+</record_update>

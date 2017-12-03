@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>layout</category>
+        <description>Minimalistic approach to the CMS layout, using div tags and CSS floats to create columns. This layout has 3 stacked rows for header, content body, and footer.  In the content body, the left column is fluid and the right hand column is used for supplementary info.</description>
+        <media_type/>
+        <name>Lab Info Management - Admin 1 Column</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-24 17:01:52</sys_created_on>
+        <sys_id>fa6d1c4d4fc60300ce2cb3728110c783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Info Management - Admin 1 Column</sys_name>
+        <sys_package display_value="lims" source="x_162177_lims">ed5318484f210300ce2cb3728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="lims">ed5318484f210300ce2cb3728110c7fc</sys_scope>
+        <sys_update_name>sys_ui_macro_fa6d1c4d4fc60300ce2cb3728110c783</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-24 17:01:52</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<div class="layout_container">
+
+	<div id="${jvar_name}" class="site_layout">	
+		<div class="content_header_container" id="dropzone0" dropzone="true" />
+		<div class="content_body_container_1_column">
+			<div id="dropzone10" dropzone="true" class="content_body_top"/>
+			<div id="dropzone20" dropzone="true" class="content_body_container_bottom"/>
+		</div>
+		<div class="content_footer_container" id="dropzone100" dropzone="true" />
+	</div>
+	
+</div>
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
